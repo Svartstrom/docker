@@ -1,0 +1,6 @@
+sudo docker stop first_web
+sudo docker rm first_web
+sudo docker delete static_web
+sudo docker build -t static_web .
+sudo docker run -d --name first_web -p 80:80 static_web
+
