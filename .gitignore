@@ -1,0 +1,3 @@
+latex/*.aux
+latex/*.pdf
+latex/*.log
